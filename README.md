@@ -12,6 +12,8 @@ Before clustering, the geographic data is cleaned and prepared. Latitude and lon
 
 ## Analysis Insights
 
+![Visualizing Points, Clusters, and Related Cities on the Map.png](https://github.com/macedoestevaof/clustering_geodata/blob/main/Visualizing%20Points%2C%20Clusters%2C%20and%20Related%20Cities%20on%20the%20Map.png)
+
 The map visualization showed that DBSCAN performed well in identifying clusters based on geographic coordinates. However, limitations in the city reference dataset led to some misclassifications. For example, **Belgaum** was incorrectly assigned as the nearest city to a coastal region due to insufficient geographic coverage. Overall, the clustering results were satisfactory but dependent on the quality and completeness of the reference data.
 
 Interestingly, the example dataset contained **only intramunicipal flows**, which simplified the analysis. This scenario may differ in datasets with more diverse flows, providing an opportunity to explore how the algorithm behaves with different spatial distributions. Users are encouraged to experiment with their own data to see how flow classifications change.
